@@ -1,0 +1,14 @@
+INSERT INTO Dostawcy VALUES(1,'Firma leków', 'Polska', 'Warszawa', 'Grochowa', '13', '665533542', 'losowyeail@dop.pl');
+INSERT INTO Dostawcy VALUES(2,'Firma rzeczy', 'Polska', 'Warszawa', 'Warecka', '44', '454138735', 'losowyemail2@dop.pl');
+INSERT INTO Dostawy VALUES(1,1999-06-06, 1999-06-06, 1999-06-06, 34.99, 0.5, 1);
+INSERT INTO Kategorie VALUES(1,'Lek', 'Leki i preparaty lecznicze');
+INSERT INTO Kategorie VALUES(2,'Artyku³ pielêgnacyjny', 'Œrodki do pielêgnacji i œrodki czyszcz¹ce');
+INSERT INTO Klienci VALUES(1,'Maciej', 'Grochowski','Polska', 'Warszawa', 'Grochowa', '55', '665533542', 'losowyeail4545@dop.pl');
+INSERT INTO Pracownicy VALUES(1,'Artur', '¯mijewski', 'Weterynarz', 1995-06-03, 2018-04-03, Null, 'Polska', 'Kraków', 'Krakowska', '13', Null, Null);
+INSERT INTO Pracownicy VALUES(2,'Roman', 'Nowak', 'Weterynarz', 1986-04-03, 2018-04-03, Null, 'Polska', 'Kraków', 'Krakowska', '13', Null, Null);
+INSERT INTO Produkty VALUES(1,'Rzecz1', 20, 25.99, '3 litry', 0.24, 1);
+INSERT INTO Produkty VALUES(2,'Rzecz2', 0, 19.99, '20 tabletek', 0.08, 2);
+INSERT INTO Zakupy VALUES(1,2019-06-04, 99.99, 1);
+INSERT INTO Zakupy VALUES(2,2019-06-04, 46.09, 1);
+INSERT INTO Zwierzêta VALUES(1,5, 'Pies', 'Du¿y', '14 kg', '3 m', '1 m');
+INSERT INTO Zwierzêta VALUES(2,1, 'Kot', 'Ma³y', '1 kg', '2 m', '1 m');
